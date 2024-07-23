@@ -61,7 +61,21 @@
 .mobile-break{
     display: none;
 }
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.footer .form-control {
+    border-radius: 50px;
+    padding: 10px 20px;
+}
 @media (max-width: 768px) {
+    .hero-section{
+        background-image: url(assets/home-mobile.jpg);
+    }
     .why-section {
         background-image: url(assets/why-mobile.jpg);
         background-repeat: no-repeat;
@@ -111,6 +125,16 @@
     }
     .end-content-inner{
         padding-left: 0;
+    }
+    .footer-heading{
+        text-align: left;
+    }
+    .footer-sub-heading{
+        text-align: left;
+        font-size: 22px;
+    }
+    .footer .form-inline {
+        justify-content: left !important;
     }
     .mobile-break { display: inline; }
   }
