@@ -1,0 +1,51 @@
+.hero-section{
+    background-image: url(Car\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.why-section{
+    background-image: url(assets/why-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.why-heading{
+    font-size: 80px;
+    font-weight: bold;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    
+}
+.why-content{
+    padding-left: 5%;
+    width: 45%;
+    font-size: 32px;
+}
+.mobile-break{
+    display: none;
+}
+@media (max-width: 768px) {
+    .why-section {
+        background-image: url(assets/why-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .why-heading{
+        font-size: 45px;
+        font-weight: bold;
+        padding-top: 45%;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-bottom: 2%;
+        
+    }
+    .why-content{
+        padding-left: 5%;
+        width: 100%;
+        font-size: 22px;
+    }
+    .mobile-break { display: inline; }
+  }
