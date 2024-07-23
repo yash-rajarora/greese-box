@@ -23,6 +23,41 @@
     width: 45%;
     font-size: 32px;
 }
+.frequent-heading{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+    color: white;    
+}
+.frequent-carousel .carousel-inner {
+    height: 85vh;
+}
+
+.frequent-carousel .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.end-to-end-section{
+    height: 78vh;
+    background-color: rgb(82, 219, 209);
+}
+.end-heading{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.end-content{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.end-content-inner{
+    text-align: left;
+    padding-left: 29%;
+}
 .mobile-break{
     display: none;
 }
@@ -46,6 +81,36 @@
         padding-left: 5%;
         width: 100%;
         font-size: 22px;
+    }
+    .frequent-heading{
+        font-size: 45px;
+        font-weight: bold;
+        padding-left: 5%;
+        text-align: left;
+        background-color: black;
+        color: white;    
+    }
+    .frequent-carousel .carousel-inner {
+        height: 28vh;
+    }
+    .end-to-end-section{
+        height: 70vh;
+    }
+    .end-heading{
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 10%;
+    }
+    .end-content{
+        text-align: left;
+        padding-left: 10%;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .end-content-inner{
+        padding-left: 0;
     }
     .mobile-break { display: inline; }
   }
