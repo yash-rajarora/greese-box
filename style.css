@@ -374,6 +374,7 @@
         background: url(assets/offer-img.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
+        height: auto;
     }
     .offer {
         margin-top: 60%;
@@ -419,7 +420,7 @@
         background-color: #f1f1f1;
     }
     .end-to-end-section{
-        height: 50vh;
+        height: 53vh;
     }
     .end-heading{
         font-family: "Montserrat", sans-serif;
